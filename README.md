@@ -6,8 +6,8 @@ It will also attempt to set your [users.profile](https://api.slack.com/methods/u
 
 ```json
 {
-  status_text: 'Australian Eastern Standard Time',
-  status_emoji: ':flag-au:'
+  "status_text": "Australian Eastern Standard Time",
+  "status_emoji": ":flag-au:"
 }
 ```
 
