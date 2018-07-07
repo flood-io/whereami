@@ -2,6 +2,8 @@
 
 This is a simple Slack [slash command bot](https://api.slack.com/slash-commands), which when called from slack with `/whereami`, will attempt to locate you based on [users.info](https://api.slack.com/methods/users.info) and the [geocoder](https://github.com/alexreisner/geocoder#basic-search) gem.
 
+![](https://i.imgur.com/DfDSURN.png)
+
 It will also attempt to set your [users.profile](https://api.slack.com/methods/users.profile.set) with something like this:
 
 ```json
